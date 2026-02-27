@@ -1,0 +1,114 @@
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Variablen */
+:root {
+  --farbe-text:        #1a1a1a;
+  --farbe-text-weich:  #555;
+  --farbe-hintergrund: #f0f0f0;
+  --farbe-akzent:      #2a6496;
+  --farbe-linie:       #e0e0e0;
+  --font-stack:        ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --breite-inhalt:     68ch;
+  --abstand-seite:     1.5rem;
+}
+
+/* Basis */
+html {
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--farbe-text);
+  background: var(--farbe-hintergrund);
+  font-family: var(--font-stack);
+}
+
+body {
+  max-width: var(--breite-inhalt);
+  margin: 0 auto;
+  padding: var(--abstand-seite);
+}
+
+/* Navigation */
+nav {
+  padding: 1.5rem 0;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid var(--farbe-linie);
+  display: flex;
+  gap: 1.5rem;
+  align-items: baseline;
+}
+
+nav a {
+  color: var(--farbe-text-weich);
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+}
+
+nav a:hover {
+  color: var(--farbe-akzent);
+}
+
+nav a.aktiv {
+  color: var(--farbe-text);
+  font-weight: 600;
+}
+
+/* Typografie */
+h1, h2, h3 {
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  margin-top: 2rem;
+}
+
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.3rem; }
+h3 { font-size: 1.1rem; }
+
+p { margin-bottom: 1rem; }
+
+a {
+  color: var(--farbe-akzent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Inhalt */
+main {
+  padding-bottom: 4rem;
+}
+
+/* Bilder */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.galerie {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  max-width: 100%;
+}
+
+.galerie figure {
+  margin: 0;
+}
+
+.galerie img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.galerie figcaption {
+  font-size: 0.8rem;
+  color: var(--farbe-text-weich);
+  margin-top: 0.3rem;
+}
