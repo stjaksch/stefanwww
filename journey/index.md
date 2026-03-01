@@ -17,4 +17,4 @@ title: Journey
 - it just hangs on a wall in my bedroom and is always at hand. from 0 to practice in <1min -> key for getting myself to practice on a daily basis (although often for just a few minutes)
 - playing around with effects and looper builds additional motivation
 - internet resources reveal new inspirations
-- took several online cello classes/courses to develop my skills towards improvisation and free playing 
+- took several online cello classes/courses (see [resources](/resources/)) to develop my skills towards improvisation and free playing (not that I am already there, just getting closer, slowly) 

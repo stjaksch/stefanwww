@@ -112,3 +112,11 @@ img {
   color: var(--farbe-text-weich);
   margin-top: 0.3rem;
 }
+
+footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--farbe-linie);
+  font-size: 0.8rem;
+  color: var(--farbe-text-weich);
+}
