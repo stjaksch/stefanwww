@@ -3,9 +3,7 @@ layout: base.njk
 title: Startseite
 ---
 
-# Stefan
-
-## Cello notes
+# Stefan's cello notes
 Welcome. I just started to write about my cello activities.
 Don't know how this website will evolve.
 

@@ -58,6 +58,32 @@ nav a.aktiv {
   font-weight: 600;
 }
 
+/* Navigation intern, sj review!!*/
+navint {
+  padding: 0.5 rem 0;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--farbe-linie);
+  display: flex;
+  gap: 0.2rem;
+  align-items: baseline;
+}
+
+navint a {
+  color: var(--farbe-text-weich);
+  text-decoration: none;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+}
+
+navint a:hover {
+  color: var(--farbe-akzent);
+}
+
+navint a.aktiv {
+  color: var(--farbe-text);
+  font-weight: 600;
+}
+
 /* Typografie */
 h1, h2, h3 {
   line-height: 1.25;
